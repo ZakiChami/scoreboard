@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h3 {
+    color: white;
+}
+
+.score-board {
+    text-align: center;
+    color: red;
+    background-color: black;
+    padding: 40px 40px;
+    font-size: 20px 40px;
+}
+
+.home-buttons {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 8px;
+    margin: 0px 3px;
+    border-radius: 5px;
+}
+
+
+#reset {
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+
+#reset:hover {
+    transition: 0.5s;
+    border: 4px solid white;
+    background-color: white;
+    color: black;
+}
